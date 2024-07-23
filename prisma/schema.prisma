@@ -21,7 +21,7 @@ model User {
   lastName    String          @map("last_name")
   email       String          @unique
   password    String
-  typeAccount UserAccountType @map("type_account")
+  typeAccount UserAccountType @default(CLIENT) @map("type_account")
 
   serviceContracts ServiceContracts[]
 
@@ -35,7 +35,7 @@ model ProviderService {
   lastName    String          @map("last_name")
   email       String          @unique
   password    String
-  typeAccount UserAccountType @map("type_account")
+  typeAccount UserAccountType @default(SERVICE_PROVIDER) @map("type_account")
 
   Service          Service[]
   ServiceContracts ServiceContracts[]
