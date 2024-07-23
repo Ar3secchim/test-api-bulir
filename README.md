@@ -4,13 +4,13 @@
 
 ### 1.1 Cadastro de Usuarios
 
-- [ ] Dados necessários: Nome Completo, NIF, E-mail, Senha.
-- [ ] NIF e E-mail devem ser únicos no sistema.
-- [ ] Tipos de usuário: Cliente, Prestador.
+- [x] Dados necessários: Nome Completo, NIF, E-mail, Senha.
+- [x] NIF e E-mail devem ser únicos no sistema.
+- [x] Tipos de usuário: Cliente, Prestador.
 
 ### 1.2. Autenticação e Autorização
 
-- [ ] Usuários devem se autenticar para aceder a API.
+- [ ] Usuários devem se autenticar para acessar a API.
 - [ ] Utilizar JWT para autenticação.
 
 ### 1.3. Gerenciamento Gestão de Serviços
